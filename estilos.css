@@ -1,0 +1,40 @@
+*{
+	font-family: impact;
+	font-size: 20px;
+	
+}
+.contenedor{
+	border: solid 2px black;
+	width: 400px;
+	background: linear-gradient(to top,white,green,#1CF87E);
+	border-radius: 20px;
+	box-shadow: 10px 5px 5px black;
+	text-shadow: 5px 0px 1px white;
+}
+button{
+	flex: 20%;
+	margin: 5px;
+	border-radius: 10px;
+	box-shadow: 3px 3px 3px black;
+	border: 1px solid green;
+
+}
+button:hover{
+animation-duration: 0.5s;
+	animation-name: menu;
+}
+@keyframes menu{
+	from {
+		transform: scale(0.9,0.9);
+	}
+	to{
+		background-color: #62FC8A;
+		color: #09046D;
+	}
+}
+#boton{
+	float: right;
+}
+#operacion{
+	float: left;
+}
